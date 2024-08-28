@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerse Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/about.css">
+</head>
+
+<body>
+    <header>
+        <!-- nav part -->
+        <nav class="navbar navbar-expand-lg common-padding">
+            <div class="container">
+                <a class="navbar-brand" href="#">EVERLANE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./men.html">Men</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./women.html">Women</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./store.html">Stores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./stories.html">Everworld stories</a>
+                        </li>
+
+                    </ul>
+                    <!-- <form class="d-flex align-items-center" role="search">
+                        <div class="nav-icon" id="ser"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <div class="nav-icon"id="sign-in-btn"><a href="./about.html" class="text-dark"><i class="fa-regular fa-user"></i> Sign In</a></div>
+                        <div class="nav-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button> 
+                    </form> -->
+                    <button id="signInBtn">Sign In</button>
+                            <div id="signInForm" class="form-container">
+                                <div class="login-container">
+                                    <h2>Login</h2>
+                                    <form id="loginForm">
+                                        <div class="input-container">
+                                            <label for="username">User Name</label>
+                                            <div class="input-field">
+                                                <i class="fa fa-user"></i>
+                                                <input type="text" id="username" name="username" placeholder="Type your username" required>
+                                            </div>
+                                        </div>
+                                        <div class="input-container">
+                                            <label for="password">Password</label>
+                                            <div class="input-field">
+                                                <i class="fa fa-lock"></i>
+                                                <input type="password" id="password" name="password" placeholder="Type your password" required>
+                                            </div>
+                                        </div>
+                                        <div class="forgot-password">
+                                            <a href="#">Forgot Password?</a>
+                                        </div>
+                                        <button type="submit">Login</button>
+                                        <div class="form-div">
+                                            <p class="p52"> Or <b>Sign Up</b> Using </p>
+                                            <div class="social-icon">
+                                                <div class="face">
+                                                    <p class="p53"><i class="fa-brands fa-facebook"></i></p>
+                                                </div>
+                                                <div class="Twitter">
+                                                    <p class="p54"><i class="fa-brands fa-twitter"></i></p>
+                                                </div>
+                                                <div class="Insta">
+                                                    <p class="p55"><i class="fa-brands fa-google"></i></p>
+                                                </div>
+                                            </div>
+                                            <div class="btn20">
+                                                <i class="fa-solid fa-xmark" id="closeBtn"></i>
+                                            </div>
+                                        </div>
+                                        
+                                       
+                                    </form>
+                                </div>
+                                  
+                                
+                            </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- about part banner -->
+    <section class="about-part-banner common-padding">
+        <div class="about-heading">
+            <h1>We Belive we can all make a differance</h1>
+        </div>
+        <div class="about-subheading">
+            <P class="p67">Our Way : Exception Quality Ethical factories. Radical Transparency</p>
+        </div>
+    </section>
+    <main>
+        <!-- about-large-text -->
+        <section class="about-large-text common-padding p-top m-bottom">
+            <div class="a-text">
+                <h2>At Everlane, we want the right choice to be as easy as putting on a great T-shirt. That’s why we
+                    partner with the best, ethical factories around the world. Source only the finest materials. And
+                    share those stories with you—down to the true cost of every product we make. It’s a new way of doing
+                    things. We call it Radical Transparency.</h2>
+            </div>
+
+        </section>
+        <!-- Ethical approach part -->
+        <section class="ethical  ">
+            <div class="container-fluid ">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6 col-md-6 col-sm-6 p-0">
+                        <div class="ethical-img">
+                            <img src="./images/ethical.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 p-0">
+                        <div class="ethical-text">
+                            <div class="e-heading">
+                                <p class="p14">OUR FACTORIES</p>
+                                <p class="p13">Our ethical approach.</p>
+                            </div>
+                            <div class="e-para">
+                                <p class="p12">We spend months finding the best factories around the world—the same ones
+                                    that produce your favorite designer labels. We visit them often and build strong
+                                    personal relationships with the owners. Each factory is given a compliance audit to
+                                    evaluate factors like fair wages, reasonable hours, and environment. Our goal? A
+                                    score of 90 or above for every factory.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- only img 1st -->
+        <section class="only-img">
+            <img src="./images/imageonly.png" alt="onlyimg">
+        </section>
+        <!-- desinged -->
+        <section class="desinged">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6 col-sm-6 p-0">
+                        <div class="design-text">
+                            <p class="p17">Our quality</p>
+                            <p class="p18">Designed
+                                to last.</p>
+                            <div class="desinged-para">
+                                <p class="p19">At Everlane, we’re not big on trends. We want you to wear our pieces for
+                                    years, even decades, to come. That’s why we source the finest materials and
+                                    factories for our timeless products— like our Grade-A cashmere sweaters, Italian
+                                    shoes, and Peruvian Pima tees.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 p-0">
+                        <div class="desined-img">
+                            <img src="./images/Designed.png" alt="designimg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- only img part2 -->
+        <section class="only-img1">
+            <img src="./images/only2.png" alt="onlyimg">
+        </section>
+        <!-- radically -->
+        <section class="redically common-padding p-top m-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="bar-img">
+                            <img src="./images/Screenshot 2023-11-30 at 6.28 1.png" alt="scree-short">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="redical-text">
+                            <p class="p20">Our Prices</p>
+                            <p class="p21">Radically Transparent.</p>
+                            <div class="redical-para">
+                                <p class="p22">We believe our customers have a right to know how much their clothes cost
+                                    to make. We reveal the true costs behind all of our products—from materials to labor
+                                    to transportation—then offer them to you, minus the traditional retail markup.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- footer -->
+    <footer>
+        <section class="footer common-padding p-top">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                        <div class="footer-detail m-bottom">
+                            <div class="f-heading">
+                                <h4>Account</h4>
+                            </div>
+                            <div class="f-text">
+                                <p class="p11">Log In</p>
+                                <p class="p11">Sign Up</p>
+                                <p class="p11">Reedem a gift card</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                        <div class="footer-detail m-bottom">
+                            <div class="f-heading">
+                                <h4>Company</h4>
+                            </div>
+                            <div class="f-text">
+                                <p class="p11">About</p>
+                                <p class="p11">Factories</p>
+                                <p class="p11">Careers</p>
+                                <p class="p11">International</p>
+                                <p class="p11">Accessibility</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                        <div class="footer-detail m-bottom">
+                            <div class="f-heading">
+                                <h4>Get Help</h4>
+                            </div>
+                            <div class="f-text">
+                                <p class="p11">Help Center
+                                <p>
+                                <p class="p11">Return Policy</p>
+                                <p class="p11">shipping Info
+                                <p>
+                                <p class="p11">Bulk Orders</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                        <div class="footer-detail m-bottom">
+                            <div class="f-heading">
+                                <h4>Connect</h4>
+                            </div>
+                            <div class="f-text">
+                                <p class="p11">FaceBook
+                                <p>
+                                <p class="p11">Instagram</p>
+                                <p class="p11">Twitter
+                                <p>
+                                <p class="p11">Our stores</p>
+
+                            </div>
+                            <div class="email-address">
+                                <h5>Enter Your Email</h5>
+                                <div class="arrow-box">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="f-text py-4 text-center">
+                    © 2023 All Rights Reserved
+                </div>
+            </div>
+
+        </section>
+    </footer>
+    <!-- popper js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- swipper cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- js link -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: "mae";
+    src: url("../font/fonts/fonnts.com-Maison_Neue_Book.ttf");
+}
+@font-face {
+    font-family: "mae1";
+    src: url("../font/fonts/fonnts.com-Maison_Neue_Bold.ttf");
+}
+.common-padding{
+    padding-left: 65px !important;
+    padding-right: 65px !important;
+}
+.container{
+    max-width: 1240px !important;
+}
+.m-bottom{
+    margin-bottom: 80px;
+ }
+ .p-top{
+    padding-top: 80px;
+}
+/* nav part */
+.nav-item{
+    margin-left: 20px;
+}
+.nav-icon{
+    margin-left: 20px;
+}
+.navbar{
+    position: -webkit-sticky;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    backdrop-filter: blur(5px);
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color:#D38632;
+}
+.nav-link{
+    font-family: "mae";
+    font-family: 18px;
+    
+}
+.navbar-brand{
+    font-size: 25px;
+    text-shadow: 1px 0px 2px #36647e, 0 0 0em #36647e;
+   
+}
+.active{
+    padding: 3px 10px;
+    background-color: #B3A695;
+    border-radius: 35px;
+}
+.nav-item:hover{
+    padding: 3px 10px;
+    background-color: #B3A695;
+    border-radius: 35px;
+    transition: 1s;
+}
+.navbar-toggler{
+    background-color: #B3A695;
+    margin-bottom: 0px;
+}
+.btn20{
+    position: absolute;
+    top:7%;
+    right:9%;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    display: none;
+    position: fixed;
+    top:430px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #B3A695;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+#signInBtn {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 35px;
+    color: black;
+}
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-field {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-field i {
+    position: absolute;
+    left: 10px;
+    color: #999;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px 10px 10px 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #007bff;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.p52{
+    font-size: 20px;
+    font-family: "mae";
+    color: black;
+}
+.form-div{
+    text-align: center;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+.social-icon i{
+    font-size: 35px;
+}
+.p53{
+    color: #0056b3;
+}
+.p54{
+    color: palevioletred;
+}
+.p55{
+    color: red;
+}
+
+
+
+/* about-part */
+.about-part-banner{
+    background-image: url("../images/aboutbanner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 691px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.about-heading{
+    text-align: center;
+    width: 30%;
+}
+.about-subheading{
+    text-align: center;
+    width: 17%;
+
+}
+.p67{
+    font-family: "mae";
+    color: white;
+}
+.about-heading h1{
+    font-size: 70px;
+    color: white;
+    font-family: "mae";
+    text-align: center;
+}
+   /* large text */
+   .about-large-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .a-text{
+    width: 55%;
+    text-align: center;
+   }
+
+
+   .a-text h2{
+    font-size: 35px;
+    font-family: "mae";
+    color:black;
+    
+   }
+   /* ethical */
+   .ethical-img img{
+    width: 700px;
+   }
+   .ethical{
+    background-color:  #DDDBDC;
+   
+   }
+   .e-para{
+    width: 70%;
+   }
+   .p13{
+    font-size: 40px;
+    font-family: "mae1";
+   }
+   .p12{
+    font-family: "mae";
+    font-size: 14px;
+    letter-spacing: 2px;
+   }
+   /* desing part */
+   .design-text{
+    padding-left: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+   }
+   .desined-img img{
+    /* width: 700px; */
+   }
+   .desined{
+    background-color:  #DDDBDC;
+   
+   }
+   .desinged-para{
+    width: 90%;
+   }
+   .p18{
+    font-size: 40px;
+    font-family: "mae1";
+   }
+   .p19{
+    font-family: "mae";
+    font-size: 14px;
+    letter-spacing: 2px;
+   }
+   /* redical part */
+  
+   .redical-para{
+    width: 90%;
+   }
+   .p21{
+    font-size: 40px;
+    font-family: "mae1";
+   }
+   .p22{
+    font-family: "mae";
+    font-size: 14px;
+    letter-spacing: 2px;
+   }
+   
+/* footer */
+.email-address{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left:10px
+  }
+  h5{
+    font-size: 14px;
+  }
+  .arrow-box{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 70px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  .arrow-box i{
+    color: white;
+  }
+  .footer{
+    background-color: #DDDBDC;
+  }
+  
+/* media part */
+@media screen and (max-width:1440px) {
+    .common-padding{
+        padding-left: 60px  !important; 
+        padding-right: 60px !important;
+    }
+    /* about part */
+    .about-part-banner{
+        background-image: url("../images/aboutbanner.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .about-heading{
+        text-align: center;
+        width: 30%;
+    }
+    .about-subheading{
+        text-align: center;
+        width: 17%;
+    
+    }
+    h5{
+        font-family: "mae";
+        color: white;
+    }
+    .about-heading h1{
+        font-size: 50px;
+        color: white;
+        font-family: "mae";
+        text-align: center;
+    }
+    /* only img1 */
+.only-img img{
+    height: 560px;
+}     
+ /* only img  2nd*/
+ .only-img1 img{
+    height: 560px;
+}
+    /* ethical */
+    .ethical-img img{
+        width: 560px;
+       }
+       .ethical{
+        background-color:  #DDDBDC;
+       
+       }
+       .e-para{
+        width: 70%;
+       }
+       .p13{
+        font-size: 40px;
+        font-family: "mae1";
+       }
+       .p12{
+        font-family: "mae";
+        font-size: 14px;
+        letter-spacing: 2px;
+       }
+       .a-text{
+        width: 50%;
+       }
+       .a-text h2{
+        font-size: 25px;
+       }
+       /* desing part */
+   .design-text{
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+   }
+   .desined-img img{
+    height: 560px;
+   }
+   .desined{
+    background-color:  #DDDBDC;
+   
+   }
+   .desinged-para{
+    width: 90%;
+   }
+   .p18{
+    font-size: 40px;
+    font-family: "mae1";
+   }
+   .p19{
+    font-family: "mae";
+    font-size: 14px;
+    letter-spacing: 2px;
+   }
+   /* redical part */
+  
+   .redical-para{
+    width: 90%;
+   }
+   .p21{
+    font-size: 40px;
+    font-family: "mae1";
+   }
+   .p22{
+    font-family: "mae";
+    font-size: 14px;
+    letter-spacing: 2px;
+   }
+    
+
+    
+}
+@media screen and (max-width:1199px) {
+    .common-padding{
+        padding-left: 50px  !important; 
+        padding-right: 50px !important;
+    }
+    .nav-item{
+        margin-left: 10px;
+    }
+    .nav-icon{
+        margin-left: 10px;
+    }
+    .p-top{
+        padding-top: 60px;
+    }
+    .m-bottom{
+        margin-bottom: 60px;
+    }
+    /* about-part */
+    .about-part-banner{
+        background-image: url("../images/aboutbanner.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .about-heading{
+        text-align: center;
+        width: 30%;
+    }
+    .about-subheading{
+        text-align: center;
+        width: 17%;
+    
+    }
+    h5{
+        font-family: "mae";
+        color: white;
+    }
+    .about-heading h1{
+        font-size: 40px;
+        color: white;
+        font-family: "mae";
+        text-align: center;
+    }
+        /* only img1 */
+.only-img img{
+    height: 460px;
+}
+      /* only img  2nd*/
+      .only-img1 img{
+        height: 460px;
+    }
+    /* ethical */
+    .ethical-img img{
+        width: 460px;
+       }
+       .ethical{
+        background-color:  #DDDBDC;
+       
+       }
+       .e-para{
+        width: 75%;
+       }
+       .p13{
+        font-size: 40px;
+        font-family: "mae1";
+       }
+       .p12{
+        font-family: "mae";
+        font-size: 14px;
+        letter-spacing: 2px;
+       }
+       .a-text{
+        width: 60%;
+       }
+       .a-text h2{
+        font-size: 25px;
+       }
+       /* desined */
+       .design-text{
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    
+       }
+       .desined-img img{
+        height: 460px;
+       }
+       .desined{
+        background-color:  #DDDBDC;
+       
+       }
+       .desinged-para{
+        width: 90%;
+       }
+       .p18{
+        font-size: 40px;
+        font-family: "mae1";
+       }
+       .p19{
+        font-family: "mae";
+        font-size: 14px;
+        letter-spacing: 2px;
+       }
+       /* rediacal */
+        /* redical part */
+  
+   .redical-para{
+    width: 90%;
+   }
+   .p21{
+    font-size: 40px;
+    font-family: "mae1";
+   }
+   .p22{
+    font-family: "mae";
+    font-size: 14px;
+    letter-spacing: 2px;
+   }
+    
+    
+    
+}
+@media screen and (max-width:991px) {
+    .common-padding{
+        padding-left: 40px  !important; 
+        padding-right: 40px !important;
+    }
+    .p-top{
+        padding-top: 50px;
+    }
+    .m-bottom{
+        margin-bottom: 50px;
+    }
+    #signInBtn {
+        margin: 0px;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 35px;
+        color: black;
+    }
+    .nav-item{
+        margin-left: 0px;
+    }
+    .nav-icon{
+        margin-left: 10px;
+    }
+    .navbar-brand{
+        margin-bottom: 10px;
+    }
+    #ser{
+        margin: 0;
+    }
+    .nav-item{
+        margin-left: 0px;
+       
+    }
+    /* about part */
+    .about-part-banner{
+        background-image: url("../images/aboutbanner.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .about-heading{
+        text-align: center;
+        width: 40%;
+    }
+    .about-subheading{
+        text-align: center;
+        width: 30%;
+    
+    }
+    h5{
+        font-family: "mae";
+        color: white;
+    }
+    .about-heading h1{
+        font-size: 40px;
+        color: white;
+        font-family: "mae";
+        text-align: center;
+    }
+            /* only img1 */
+.only-img img{
+    height: 360px;
+}
+ /* only img  2nd*/
+ .only-img1 img{
+    height: 360px;
+}
+    /* ethical  */
+    .ethical-img img{
+        width:350px;
+       }
+       .ethical{
+        background-color:  #DDDBDC;
+       
+       }
+       .e-para{
+        width: 85%;
+       }
+       .p13{
+        font-size: 30px;
+        font-family: "mae1";
+       }
+       .p12{
+        font-family: "mae";
+        font-size: 14px;
+        letter-spacing: 2px;
+       }
+       /* large-text */
+       .a-text{
+        width: 80%;
+       }
+       .a-text h2{
+        font-size: 25px;
+       }
+        /* desined */
+        .design-text{
+            padding-left: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+        
+           }
+           .desined-img img{
+            height: 350px;
+           }
+           .desined{
+            background-color:  #DDDBDC;
+           
+           }
+           .desinged-para{
+            width: 90%;
+           }
+           .p18{
+            font-size: 30px;
+            font-family: "mae1";
+           }
+           .p19{
+            font-family: "mae";
+            font-size: 14px;
+            letter-spacing: 2px;
+           }
+           /* redical part */
+           .redical-para{
+            width: 90%;
+           }
+           .p21{
+            font-size: 30px;
+            font-family: "mae1";
+           }
+           .p22{
+            font-family: "mae";
+            font-size: 14px;
+            letter-spacing: 2px;
+           }
+            
+    
+
+
+    
+    
+}
+@media screen and (max-width:767px) {
+    .common-padding{
+        padding-left: 30px  !important; 
+        padding-right: 30px !important;
+    }
+    .p-top{
+        padding-top: 40px;
+    }
+    .m-bottom{
+        margin-bottom: 40px;
+    }
+    #signInBtn {
+        margin: 0px;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 35px;
+        color: black;
+    }
+     /* about part */
+     .about-part-banner{
+        background-image: url("../images/aboutbanner.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .about-heading{
+        text-align: center;
+        width: 40%;
+    }
+    .about-subheading{
+        text-align: center;
+        width: 30%;
+    
+    }
+    h5{
+        font-family: "mae";
+        color: white;
+    }
+    .about-heading h1{
+        font-size: 40px;
+        color: white;
+        font-family: "mae";
+        text-align: center;
+    }
+     /* footer */
+     .email-address{
+        position: relative;
+        width: 130px;
+        height: 40px;
+        border: 2px solid black;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left:10px
+      }
+      h5{
+        font-size: 10px;
+      }
+      .arrow-box{
+        position: absolute;
+        top:0;
+        right: 0;
+        width: 40px;
+        height:39px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+      }
+      .arrow-box i{
+        color: white;
+      }
+      /* ethical */
+      .ethical-img img{
+        width:270px;
+       }
+       .ethical{
+        background-color:  #DDDBDC;
+       
+       }
+       .p14{
+        margin-bottom: 0;
+       }
+       .e-para{
+        width: 100%;
+       }
+       .p13{
+        font-size: 20px;
+        font-family: "mae1";
+        margin-bottom: 0;
+       }
+       .p12{
+        font-family: "mae";
+        font-size: 14px;
+        letter-spacing: 1px;
+       }
+       /* large text */
+       .a-text{
+        width: 100%;
+       }
+       .a-text h2{
+        font-size: 20px;
+       }
+       /* only img */
+       .only-img img{
+        height: 300px;
+    }
+       /* only img  2nd*/
+       .only-img1 img{
+        height: 300px;
+    }
+     /* desined */
+     .design-text{
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    
+       }
+       .desined-img img{
+        height: 350px;
+       }
+       .desined{
+        background-color:  #DDDBDC;
+       
+       }
+       .desinged-para{
+        width: 90%;
+       }
+       .p18{
+        font-size: 20px;
+        font-family: "mae1";
+       }
+       .p19{
+        font-family: "mae";
+        font-size: 14px;
+        letter-spacing: 1px;
+       }
+       /* redical */
+       .redical-para{
+        width: 100%;
+       }
+       .p21{
+        font-size: 20px;
+        font-family: "mae1";
+       }
+       .p22{
+        font-family: "mae";
+        font-size: 14px;
+        letter-spacing: 1px;
+       }
+        
+    
+
+    
+}
+@media screen and (max-width:575px) {
+    .common-padding{
+        padding-left: 15px  !important; 
+        padding-right: 15px !important;
+    }
+    .navbar{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .p-top{
+        padding-top: 30px;
+    }
+    .m-bottom{
+        margin-bottom: 30px;
+    }
+    /* about part */
+    .about-part-banner{
+        background-image: url("../images/aboutbanner.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .about-heading{
+        text-align: center;
+        width: 60%;
+    }
+    .about-subheading{
+        text-align: center;
+        width: 55%;
+    
+    }
+    h5{
+        font-family: "mae";
+        color: white;
+    }
+    .about-heading h1{
+        font-size: 30px;
+        color: white;
+        font-family: "mae";
+        text-align: center;
+    }
+    /* ethical */
+    .ethical-img img{
+        width:320px;
+       }
+       .ethical{
+        background-color:  #DDDBDC;
+       
+       }
+       .ethical-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+       
+       }
+       .ethical-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+      
+       }
+       .p14{
+        margin-bottom: 0;
+        text-align: center;
+       }
+       .e-para{
+        width: 100%;
+       }
+       .p13{
+        font-size: 20px;
+        font-family: "mae1";
+        margin-bottom: 0;
+        text-align: center;
+       }
+       .p12{
+        font-family: "mae";
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-align: center;
+       }
+       /* large text */
+       .a-text{
+        width: 100%;
+       }
+       .a-text h2{
+        font-size: 18px;
+       }
+       /* desined */
+       .design-text{
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    
+       }
+       .desined-img img{
+        height: 300px;
+       }
+       .desined{
+        background-color:  #DDDBDC;
+       
+       }
+       .desinged-para{
+        width: 100%;
+       }
+       .p18{
+        font-size: 20px;
+        font-family: "mae1";
+        margin-bottom: 0;
+       }
+       .p19{
+        font-family: "mae";
+        font-size: 12px;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+       }
+       .p17{
+        margin-bottom: 0;
+        padding-top: 20px;
+       }
+       .desined-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+       }
+       .design-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom:20px;
+       }
+       /* redical */
+       .redical-para{
+        width: 100%;
+       }
+       .p21{
+        font-size: 20px;
+        font-family: "mae1";
+       }
+       .p22{
+        font-family: "mae";
+        font-size: 14px;
+        letter-spacing: 1px;
+       }
+       .login-container {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        
+    }
+    #signInBtn {
+        margin: 0px;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 35px;
+        color: black;
+    }
+    .form-container {
+        display: none;
+        position: fixed;
+        top:430px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #B3A695;
+        padding: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+    .form-container {
+        display: none;
+        position: fixed;
+        top:300px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #B3A695;
+        padding: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+    .btn20{
+        position: absolute;
+        top:4%;
+        right:5%;
+        width:30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 3px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+}
